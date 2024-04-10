@@ -1,0 +1,10 @@
+<link rel="stylesheet" href="style/container.css">
+<link rel="stylesheet" href="style/footer.css">
+<link rel="stylesheet" href="style/form.css">
+<link rel="stylesheet" href="style/geral.css">
+<link rel="stylesheet" href="style/img.css">
+<link rel="stylesheet" href="style/link.css">
+<link rel="stylesheet" href="style/text.css">
+
+<link rel="stylesheet" href="style/menu.css">
+

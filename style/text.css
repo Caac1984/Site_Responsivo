@@ -1,0 +1,32 @@
+h1 {
+    margin-bottom: 10px;
+    text-shadow: 0 0 0.2em rgb(240, 185, 57), 0 0 0.2em rgb(240, 185, 57)
+}
+
+h2 {
+    text-shadow: 0.1em 0.1em 0.2em rgb(230, 186, 10)
+}
+
+#p1 {
+    color: white;
+    text-shadow: 0 0 0.2em rgb(240, 185, 57), 0 0 0.2em rgb(240, 185, 57)
+}
+
+#lu1 {
+    text-shadow: 0.1em 0.1em 0.2em rgb(251, 201, 0)
+}
+
+lu {
+    color: rgb(240, 239, 236);
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+label {
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+
