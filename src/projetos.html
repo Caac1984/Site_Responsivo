@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img//favicon.png">
+
+    <link rel="stylesheet" href="style/container.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/geral.css">
+    <link rel="stylesheet" href="style/img.css">
+    <link rel="stylesheet" href="style/link.css">
+    <link rel="stylesheet" href="style/text.css">
+
+    <title>Projetos</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Meus Projetos</h1>
+        <!-- Aqui está a div onde o menu será incluído -->
+        <div id="menu"></div>
+
+    </header>
+
+    <section id="projetos">
+        <div class="projeto">
+            <lu id="lu1">Projeto 1</lu>
+            <br>
+            <lu id="a1"><a id="link2" href="https://github.com/Theendringer/JogoBisca.git" class="botao" onclick=""
+                    title="Link do GitHub">Trabalho em Grupo da Faculdade - Jogo de Bisca</a></lu>
+
+            <br><br>
+
+            <lu id="lu1">Projeto 2</lu><br>
+            <lu id="a1"><a id="link2" href="https://github.com/Caac1984/trabcar.git" class="botao" onclick=""
+                    title="Link do GitHub">Trabalho de faculdade de Site
+                    Responsivo salvando os dados em Local Storage, usando React, Jason.</a>
+            </lu>
+
+            </br><br>
+
+            <lu id="lu1">Projeto 3</lu><br>
+            <lu id="a1"><a id="link2" href="https://github.com/Caac1984/Site_Responsivo_html.git" 
+                class="botao" onclick="" title="Link do GitHub">Trabalho de faculdade de Site Responsivo em HTML
+                    usando CSS.</a></lu>
+
+
+        </div>
+    </section>
+    <footer>
+        <p id="direito">Carlos - Desenvolvedor Web (2024) - Todos os Direitos Reservados.</p>
+
+        <a
+            href="https://www.linkedin.com/in/carlos-alexandre-8025661ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+            <img id="linkedin" src="img/linkedin.png" alt="">
+
+            <a href="https://www.instagram.com/">
+                <img id="instagram" src="img/instagram.png" alt="">
+
+                <a href="https://github.com/Caac1984/">
+                    <img id="github" src="img/github.png" alt="">
+    </footer>
+     
+    <script>
+        // Carrega o conteúdo do menu.html na div com id "menu"
+        fetch('menu.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('menu').innerHTML = data;
+
+                let hamburguer = document.querySelector('.hamburguer');
+                let menuResponsive = document.querySelector('.menu-responsive');
+
+                 hamburguer.addEventListener('click', () => {
+                     menuResponsive.classList.toggle('show-menu');
+                });
+            });
+    </script>
+</body>
+
+</html>
